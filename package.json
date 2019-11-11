@@ -1,0 +1,26 @@
+{
+  "name": "api-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloPincheira/api-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloPincheira/api-proxy/issues"
+  },
+  "homepage": "https://github.com/MarceloPincheira/api-proxy#readme",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "@koa/router": "^8.0.2",
+    "koa": "^2.11.0",
+    "koa-csrf": "^3.0.8"
+  }
+}
